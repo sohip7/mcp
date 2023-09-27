@@ -1,0 +1,186 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap');
+
+body {
+    font-family: Cairo,  'Cairo', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+
+}
+#myInput {
+    background-image: url("css/searchicon.png"); /* Add a search icon to input */
+    background-position: 10px 12px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 100%; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+}
+
+.container {
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    direction: rtl;
+
+
+}
+
+h1 {
+    font-family: 'Cairo', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+table {
+    font-family: 'Cairo', sans-serif;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    font-family: 'Cairo', sans-serif;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+thead th {
+    background-color: #f1f1f1;
+    font-weight: bold;
+}
+.text-box {
+    font-family: 'Cairo', sans-serif;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-grid;
+}
+.total-sales {
+    font-family: 'Cairo', sans-serif;
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #9b0512; /* لون الخلفية البرتقالي */
+    color: #ffffff; /* لون النص الأبيض */
+    text-align: center;
+    margin-top: 20px;
+}
+tbody tr:hover {
+    background-color: #f9f9f9;
+}
+
+.date-range-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* ليتم وسط المحتوى عموديًا */
+    margin-bottom: 20px;
+}
+
+.date-label {
+    direction: rtl;
+    font-family: 'Cairo', sans-serif;
+    display: inline-block; /* لجعل العنصر يظهر على سطر واحد مع النص */
+    margin-right: 10px;
+    font-size: 16px; /* حجم الخط */
+    color: #052c65; /* لون النص */
+    font-weight: bold; /* تحديد سمك الخط إلى bold */
+    padding: 5px; /* تحديد تباعد العنصر الداخلي */
+    background-color: #f2f2f2; /* لون خلفية العنصر */
+    border-radius: 5px; /* لتقويس زوايا العنصر */
+}
+
+
+#date-from,
+#date-to {
+    direction: rtl;
+    font-family: 'Cairo', sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex: 1; /* ليمتد كل مربع ليأخذ نصف المساحة الكلية للتخطيط */
+    margin-right: 10px; /* تحديد مسافة بين المربعين */
+}
+
+.apply-dates-btn {
+    direction: rtl;
+    font-family: 'Cairo', sans-serif;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+
+
+
+
+.container1 {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly ;
+    margin-bottom: 20px;
+    padding: 50px;
+
+
+}
+
+.item {
+    width: 48%; /* تحديد عرض كل عنصر بنسبة معينة ليكون هناك تباعد بين المربعات */
+    margin-bottom: 10px;
+
+}
+
+.bf{
+    font-family: 'Cairo', sans-serif ;
+    font-weight: bold;
+    direction: rtl;
+    font-size: 20px;
+
+}
+
+.item p {
+    font-size: 16px; /* حجم الخط */
+    line-height: 1.6; /* ارتفاع السطر */
+    color: #811010; /* لون النص */
+}
+
+h2 {
+    font-size: 20px;
+    color: #007bff;
+}
+
+.value {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #da190b;
+}
+
+

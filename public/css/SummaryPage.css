@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap');
+
+body {
+    font-family: Cairo,  'Cairo', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    direction: rtl;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    justify-content: center;
+    text-align: center;
+}
+.centered-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+/* styles.css */
+.floating-alert {
+    position: fixed;
+    top: 5%;
+    right: 37%;
+    transform: translate(-50%, -50%);
+    background-color: #333399;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+    transition: opacity 0.5s ease-in-out;
+}
+
+button{
+    display: flex;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+a {
+    align-self: center;
+    text-align: center ;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #da190b;
+}
